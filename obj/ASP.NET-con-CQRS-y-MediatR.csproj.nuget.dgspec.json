@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\ASP.NET-con-CQRS-y-MediatR.csproj": {}
+    "c:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\ASP.NET-con-CQRS-y-MediatR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\ASP.NET-con-CQRS-y-MediatR.csproj": {
+    "c:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\ASP.NET-con-CQRS-y-MediatR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\ASP.NET-con-CQRS-y-MediatR.csproj",
+        "projectUniqueName": "c:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\ASP.NET-con-CQRS-y-MediatR.csproj",
         "projectName": "ASP.NET-con-CQRS-y-MediatR",
-        "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\ASP.NET-con-CQRS-y-MediatR.csproj",
+        "projectPath": "c:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\ASP.NET-con-CQRS-y-MediatR.csproj",
         "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\obj\\",
+        "outputPath": "c:\\Users\\germa\\Desktop\\Nueva carpeta (3)\\ASP.NET-con-CQRS-y-MediatR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,13 +44,45 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.5, )"
             },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlite3": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[7.2.0, )"
             }
           },
           "imports": [
